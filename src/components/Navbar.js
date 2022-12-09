@@ -58,13 +58,13 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
-                <AiOutlineUser style={{ marginBottom: '2px' }} /> About
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> Personaggi
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
-                <AiOutlineFundProjectionScreen style={{ marginBottom: '2px' }} /> Projects
+                <AiOutlineUser style={{ marginBottom: '2px' }} /> Menzioni Onorevoli
               </Nav.Link>
             </Nav.Item>
 
