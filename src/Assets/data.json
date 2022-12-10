@@ -1,0 +1,13 @@
+{"persone":{
+	"carogna":{
+		"info":{
+			"titolo" : "contadino malato",
+			"classe" : "goblin delle caverne",
+			"anni":"22"},
+		"stats":[1,2,3,4,5,6,7],
+		"items":{
+			"fulvia" : "rottame che usa per scappare dalla finanaza"},
+		"skills":{
+			"evasione fiscale" : "piccolo trucchetto che gli permette di arrivare a fine mese"},	
+			"bio":"culo"},
+	"bonny":{"titolo":"culo"}}}
