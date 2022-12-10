@@ -8,6 +8,20 @@
 		"items":{
 			"fulvia" : "rottame che usa per scappare dalla finanaza"},
 		"skills":{
-			"evasione fiscale" : "piccolo trucchetto che gli permette di arrivare a fine mese"},	
-			"bio":"culo"},
-	"bonny":{"titolo":"culo"}}}
+			"evasione fiscale" : "piccolo trucchetto che gli permette di arrivare a fine mese", 
+"ignorare i messaggi" : "1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc" },	
+		"bio":"Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"},
+	"pier":{
+		"info":{
+			"titolo" : "Giudice Supremo",
+			"classe" : "Umano",
+			"anni":"22"},
+		"stats":[1,2,3,4,5,6,7],
+		"items":{
+			"fulvia" : "rottame che usa per scappare dalla finanaza"},
+		"skills":{
+			"consiglio legale" : "piccolo trucchetto che gli permette di arrivare a fine mese", 
+"consiglio illegale" : "1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc" },	
+		"bio":"Altro membro storico della compagnia. All'apparenza il membro più morigerato del gruppo, ma basta poco per capire che si diletta anche con proficenza nell'arte di sparare minchiate ma con classe. 100% no snitch"},
+	
+"bonny":{"titolo":"culo"}}}
