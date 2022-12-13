@@ -1,47 +1,22 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Row } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import Particle from '../Particle';
-import pdf from '../../Assets/CvNew.pdf';
-import { AiOutlineDownload } from 'react-icons/ai';
-import { Document, Page , pdfjs } from 'react-pdf';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-
-
-function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
+import { GetRepoData } from './GetRepoData';
+import {useParams} from "react-router-dom";
+function Rules() {
+const {productId} = useParams()
   return (
-    <div>
-      <Container fluid className="resume-section">
-        <Particle />
-        <Row style={{ justifyContent: 'center', position: 'relative' }}>
-          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: '250px' }}>
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
-
-        <Row className="resume">
-          <Document onLoadError={console.error} file={pdf}  className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: 'center', position: 'relative' }}>
-          <Button variant="primary" href={pdf} target="_blank" style={{ maxWidth: '250px' }}>
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
+    <Container fluid className="project-section">
+      <Particle />
+      <Container>
+        <h1 className="project-heading">
+          Regolamento Ufficiale
+        </h1>
+        <p style={{ color: 'white' }}>17 settembre 2017, Fellowship startup. </p>
+        <p style={{ color: 'white' }}> Il regnante Tony decreta: </p>
+	  	<GetRepoData/>
       </Container>
-    </div>
+    </Container>
   );
 }
-
-export default ResumeNew;
+export default Rules;

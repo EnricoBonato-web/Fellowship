@@ -7,6 +7,7 @@ import Characters from "./components/Characters/Characters";
 import CharacterDetails from "./components/CharacterDetails/CharacterDetails";
 import Rules from "./components/Rules/Rules";
 import Footer from "./components/Footer";
+import Places from "./components/Places/Places";
 import {
   BrowserRouter as Router,
   Route,
@@ -40,6 +41,7 @@ function App() {
           <Route path="/characters" element={<Characters />} />
           <Route path="/onorablemensions" element={<OnorableMensions />} />
           <Route path="/rules" element={<Rules />} />
+          <Route path="/places" element={<Places />} />
 	  	  <Route path="/charactersDetails/:name" element={<CharacterDetails />}  />
         </Routes>
         <Footer />

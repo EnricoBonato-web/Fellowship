@@ -18,6 +18,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               Permettimi di introdurti alla storia della nostra <span className="purple"> compagnia </span>
             </h1>
+		<p>(tratto da una serie di messaggi inviati a Laura)</p>
             <p className="home-about-body">
 C'era una volta, tanto tempo fa, un piccolo regno abitato da giovani aspiranti ubriaconi che uscivano al calar della notte in cerca del loro amato "composto organico contenente il gruppo funzionale -OH"<br />
 Oh e c'era un <b className="purple">castellooo</b>!<br />

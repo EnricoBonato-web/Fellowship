@@ -1,27 +1,76 @@
-{"persone":{
-	"carogna":{
-		"info":{
-			"titolo" : "contadino malato",
-			"classe" : "goblin delle caverne",
-			"anni":"22"},
-		"stats":[1,2,3,4,5,6,7],
-		"items":{
-			"fulvia" : "rottame che usa per scappare dalla finanaza"},
-		"skills":{
-			"evasione fiscale" : "piccolo trucchetto che gli permette di arrivare a fine mese", 
-"ignorare i messaggi" : "1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc" },	
-		"bio":"Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"},
-	"pier":{
-		"info":{
-			"titolo" : "Giudice Supremo",
-			"classe" : "Umano",
-			"anni":"22"},
-		"stats":[1,2,3,4,5,6,7],
-		"items":{
-			"fulvia" : "rottame che usa per scappare dalla finanaza"},
-		"skills":{
-			"consiglio legale" : "piccolo trucchetto che gli permette di arrivare a fine mese", 
-"consiglio illegale" : "1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc" },	
-		"bio":"Altro membro storico della compagnia. All'apparenza il membro più morigerato del gruppo, ma basta poco per capire che si diletta anche con proficenza nell'arte di sparare minchiate ma con classe. 100% no snitch"},
-	
-"bonny":{"titolo":"culo"}}}
+{
+   "persone":{
+      "carogna":{
+         "info":{
+            "titolo":"contadino malato",
+            "classe":"goblin delle caverne",
+            "titolo di studio":"Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "fulvia":"rottame che usa per scappare dalla finanaza"
+         },
+         "skills":{
+            "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
+            "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
+         },
+         "bio":"Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"
+      },
+      "pier":{
+         "info":{
+            "titolo":"Giudice Supremo",
+            "classe":"Umano",
+            "titolo di studio":"se non puoi batterli unisciti a loro",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "fulvia":"rottame che usa per scappare dalla finanaza"
+         },
+         "skills":{
+            "consiglio legale":"piccolo trucchetto che gli permette di arrivare a fine mese",
+            "consiglio illegale":"1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc"
+         },
+         "bio":"Altro membro storico della compagnia. All'apparenza il membro più morigerato del gruppo, ma basta poco per capire che si diletta anche con proficenza nell'arte di sparare minchiate ma con classe. 100% no snitch"
+      },
+      "bonny":{
+         "titolo":"culo"
+      }
+   },
+   "npc":{
+      "Lina":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      }
+   },
+   "luoghi":{
+      "HotAndCold":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      }
+      
+   },
+	 "regole":{
+      "regolamento":{
+         "titolo":"17 Settembre 2017",
+         "bio": ["Regolamento compagnia: ","- prima di ogni aggiunta di ogni membro  esterno ci vuole il consenso di tutti gli amministratori","- Per nominare un'altro admin ci vuole il consenso di tutti gli admin ","- In caso di forte dissenso di un admin sull'aggiunta o rimozione di un membro con motivazioni dimostrabili e plausibili, si procederà ad eseguire l'azione dettata dall'admin esercitante il dissenso.","- Regola primaria del gruppo è rispondere. Se uno non visualizza e/o non risponde fino ad un massimo di 3 volte consecutive entro 1h dalla lettura verrà richiamato, ed eventualmente si richiederà l'intervento diretto degli admin.","- Nel caso un partecipante al gruppo cominci a generare potenziai conflitti/disagi su eventi di notevoli importanza e non, sarà compito degli admin provvedere sul da farsi.","- Un admin può rifiutare o cessare il suo incarico previa repentina comunicazione a tutti gli admin","- Ulteriori regole saranno aggiunte in futuro"]      }
+	 	
+	 }
+}

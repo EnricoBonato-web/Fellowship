@@ -16,11 +16,14 @@ function Home() {
               <h1 className="heading-name">
                 Benvenuta 
                 <strong className="main-name"> Angela </strong>
-	  			all'inizio della tua avventura
+	  						all'inizio della tua avventura. 
               </h1>
+              <h2 className="heading-name">
+Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Casteo
+              </h2>
 
               <div style={{ padding: 50, textAlign: 'left' }}>
-                <Type />
+                <h2>Piena di gente: </h2> <Type />
               </div>
             </Col>
           </Row>

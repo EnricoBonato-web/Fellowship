@@ -3,20 +3,20 @@ import { Container } from 'react-bootstrap';
 import Particle from '../Particle';
 import { GetRepoData } from './GetRepoData';
 import {useParams} from "react-router-dom";
-function OnorableMensions() {
+function Places() {
 const {productId} = useParams()
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">
-          Menzioni Onorevoli
+          Luoghi del cuore
         </h1>
-        <p style={{ color: 'white' }}>A volte il passato ritorna, a volte rimane sopito.. in ogni caso sempre meglio essere pronti</p>
-		<p style={{ color: 'white' }}>(alcuni membri del passato o persone degne di nota)</p>
+        <p style={{ color: 'white' }}>La nostra avventura ci ha portato a esplorare la vasta landa del veneto con qualche quest a diversi giorni di cammino di distanza</p>
+				<p style={{ color: 'white' }}>Di seguito alcuni dei piu degni di nota</p>
 	  	<GetRepoData/>
       </Container>
     </Container>
   );
 }
-export default OnorableMensions;
+export default Places;

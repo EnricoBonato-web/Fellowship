@@ -8,9 +8,9 @@ function Characters() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Membri attuali del  <strong className="purple">Party </strong>
         </h1>
-        <p style={{ color: 'white' }}>Here are a few projects Ive worked on recently.</p>
+        <p style={{ color: 'white' }}>Studia con attenzione.</p>
 	  	<GetRepoData/>
       </Container>
     </Container>

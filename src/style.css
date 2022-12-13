@@ -21,7 +21,13 @@ html {
 button:focus {
   box-shadow: none !important;
 }
-
+.row {
+	margin: 10px 0;
+}
+.card-title{
+	color: var(--imp-text-color) ;
+	margin: 15px 0 20px 0 !important;
+}
 /* --------- */
 /*  Preloader */
 /* --------- */
@@ -41,7 +47,6 @@ button:focus {
 #preloader-none {
   opacity: 0;
 }
-
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -459,6 +464,7 @@ button:focus {
 }
 
 .project-card-view {
+	margin: 20px 0;
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
@@ -517,11 +523,20 @@ button:focus {
 }
 
 .btn-primary {
+	position: relative;
+	bottom: 0;
+	text-decoration: underline;
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
 }
-
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+p {
+	margin-bottom: 0.5rem !important;
+}
 .btn-primary:hover {
   color: #fff !important;
   background-color: #6d20c5d7 !important;

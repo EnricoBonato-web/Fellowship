@@ -35,7 +35,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <dir className="img-fluid logo" alt="brand">
-            <strong className="main-name">Eb</strong>
+            <strong className="main-name">Felloship</strong>
           </dir>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -69,8 +69,14 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
-                <CgFileDocument style={{ marginBottom: '2px' }} /> Resume
+              <Nav.Link as={Link} to="/places" onClick={() => updateExpanded(false)}>
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Luoghi
+              </Nav.Link>
+            </Nav.Item>
+					
+            <Nav.Item>
+              <Nav.Link as={Link} to="/rules" onClick={() => updateExpanded(false)}>
+                <CgFileDocument style={{ marginBottom: '2px' }} /> Regole
               </Nav.Link>
             </Nav.Item>
           </Nav>
