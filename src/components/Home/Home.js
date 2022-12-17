@@ -5,6 +5,7 @@ import Particle from '../Particle';
 import Home2 from './Home2';
 import Type from './Type';
 
+import Card from "react-bootstrap/Card";
 function Home() {
   return (
     <section>
@@ -16,18 +17,71 @@ function Home() {
               <h1 className="heading-name">
                 Benvenuta 
                 <strong className="main-name"> Angela </strong>
-	  						all'inizio della tua avventura. 
+	  						all inizio della tua avventura!
               </h1>
-              <h2 className="heading-name">
+		<br/>
+              <h3 className="heading-name">
 Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Casteo
-              </h2>
+              </h3>
 
               <div style={{ padding: 50, textAlign: 'left' }}>
                 <h2>Piena di gente: </h2> <Type />
               </div>
             </Col>
           </Row>
-        </Container>
+          <h2 className="heading-name"> Di fronte a te si parano 5 possibili strade: </h2>
+          <Row>
+		
+		<Col md={4}>
+					<Card className=" project-card-view basic-info">
+					  <Card.Body>
+					    <Card.Text>
+							Prosegui dritta davanti a te e troverai un vecchio saggio che ti raccontera l'origine della compagnia
+					    </Card.Text>
+					  </Card.Body>
+					</Card>
+		</Col>
+		<Col md={4}>
+					<Card className=" project-card-view basic-info">
+					  <Card.Body>
+					    <Card.Text>
+		Utilizzando il menu potrai scoprire tutte le informazioni rigurdo le persone piu simpatiche di casteo e dintorni
+					    </Card.Text>
+					  </Card.Body>
+					</Card>
+		</Col>
+		<Col md={4}>
+					<Card className=" project-card-view basic-info">
+					  <Card.Body>
+					    <Card.Text>
+		Nel caso tu non sappia cosa sia Casteo e dintorni ti abbiamo fornito una mappa con tutti i luoghi piu importanti
+					    </Card.Text>
+					  </Card.Body>
+					</Card>
+		</Col>
+          </Row>
+		<Row>
+		<Col md={4}>
+					<Card className=" project-card-view basic-info">
+					  <Card.Body>
+					    <Card.Text>
+		Viaggiando e esplorando questi luoghi potresti imbatterti in svariati nemici pericolosi, ricordati di studiare bene anche loro nella sezione menzioni onorevoli
+					    </Card.Text>
+					  </Card.Body>
+					</Card>
+		</Col>
+		<Col md={4}>
+					<Card className=" project-card-view basic-info">
+					  <Card.Body>
+					    <Card.Text>
+		7 sono le leggi da rispettare.. ricordale tutte; la tua vita potrebbe dipendere da questo
+					    </Card.Text>
+					  </Card.Body>
+					</Card>
+		</Col>
+          </Row>
+    
+		    </Container>
       </Container>
       <Home2 />
     </section>

@@ -1,9 +1,84 @@
 {
    "persone":{
-      "carogna":{
+      "Carogna":{
          "info":{
-            "titolo":"contadino malato",
-            "classe":"goblin delle caverne",
+            "titolo" : "contadino di mele",
+            "classe" : "goblin delle caverne",
+            "titolo di studio":"Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
+            "anni":"22"
+         	},
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "fulvia":"rottame che usa per scappare dalla finanaza"
+         },
+         "skills":{
+            "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
+            "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
+         },
+         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia","Attenzione! potrebbe insultarti la macchina."]
+      },
+      "Pier":{
+         "info":{
+            "titolo":"Giudice Supremo",
+            "classe":"Umano",
+            "titolo di studio":"se non puoi batterli unisciti a loro",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "":""
+         },
+         "skills":{
+            "consiglio legale":"",
+            "consiglio illegale":""
+         },
+         "bio":["Altro membro storico della compagnia. All'apparenza il membro più morigerato del gruppo, ma basta poco per capire che si diletta anche con proficenza nell'arte di sparare minchiate ma con classe. 100% no snitch"]
+      },
+      "Silvia":{
+        "info":{
+            "titolo" : "Alchimista di stato",
+            "classe" : "Elfo Alto",
+            "titolo di studio" : "Serviva qualcuno che badasse a Laura per questo si e iscritta a chimica",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "fulvia":"rottame che usa per scappare dalla finanaza"
+         },
+         "skills":{
+            "pozione velenosa":"",
+            "campionatura all'alba":""
+         },
+         "bio":""
+      },
+      "Bonny":{
+         "info":{
+            "titolo" : "contadino di mele",
+            "classe" : "goblin delle caverne",
             "titolo di studio":"Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
             "anni":"22"
          },
@@ -23,13 +98,37 @@
             "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
             "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
          },
-         "bio":"Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"
+         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"]
       },
-      "pier":{
+      "Laura":{
          "info":{
-            "titolo":"Giudice Supremo",
-            "classe":"Umano",
-            "titolo di studio":"se non puoi batterli unisciti a loro",
+            "titolo" : "Ammaestratrice di Bestie Selvetiche",
+            "classe" : "",
+            "titolo di studio":"Che cariera potrebbe mai scegliere una persona leggermente sbadata? Quella con accesso a sostanze tossiche, strumenti delicati e attrezzatura costosa? Si. ",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "sac a poche":""
+         },
+         "skills":{
+            "stalkeraggio preventivo":" Scopri tutte le info di un altro personaggio "
+         },
+         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"]
+      },
+      "Kevin":{
+         "info":{
+            "titolo" : "contadino di mele",
+            "classe" : "goblin delle caverne",
+            "titolo di studio":"Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
             "anni":"22"
          },
          "stats":[
@@ -45,23 +144,89 @@
             "fulvia":"rottame che usa per scappare dalla finanaza"
          },
          "skills":{
-            "consiglio legale":"piccolo trucchetto che gli permette di arrivare a fine mese",
-            "consiglio illegale":"1d6 di ignorare i danni subiti, 2d6 di non ricevere risposta da npc"
+            "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
+            "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
          },
-         "bio":"Altro membro storico della compagnia. All'apparenza il membro più morigerato del gruppo, ma basta poco per capire che si diletta anche con proficenza nell'arte di sparare minchiate ma con classe. 100% no snitch"
-      },
-      "bonny":{
-         "titolo":"culo"
-      }
+         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"]
+				 },
+      "Martaina":{
+         "info":{
+            "titolo" : "contadino di mele",
+            "classe" : "goblin delle caverne",
+            "titolo di studio":"Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
+            "anni":"22"
+         },
+         "stats":[
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+         ],
+         "items":{
+            "fulvia":"rottame che usa per scappare dalla finanaza"
+         },
+         "skills":{
+            "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
+            "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
+         },
+         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"]
+			}
    },
    "npc":{
+      "Lina":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
+      "Tony":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
+      "Pirlog":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
+      "Lina":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
+      "Lina":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
+      "Lina":{
+         "titolo":"Most Wanted",
+         "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
+      },
       "Lina":{
          "titolo":"Most Wanted",
          "bio": ["Mascot ufficiale della compagnia.", "Piccolo coniglio nano che non sa di esserlo e per questo e' cresciuto fino a essere scambiata per un cagnolino."," Artista della fuga adorata da grandi e piccini; in pochi sono i prescelti che hanno l'onore di coccolarla, attenzione alle zanne..."]
       }
    },
    "luoghi":{
+      "Casteo":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      },
       "HotAndCold":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      },
+      "SanMarteen":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      },
+      "Parcheggio del Palazzetto":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      },
+      "Enego":{
+         "titolo":"Castelfranco Vto",
+         "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
+      },
+      "Bielefeld":{
          "titolo":"Castelfranco Vto",
          "bio": ["Taverna nelle estremita nord della terra di Casteo.", "Oggettivamente miglior posto di casteo, disdegnato per via del servizio non del tutto eccezionale"]
       }

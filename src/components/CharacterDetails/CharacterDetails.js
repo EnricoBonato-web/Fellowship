@@ -26,12 +26,7 @@ function CharacterDetails() {
          	Ecco un piccolo prospetto sul un tuo furturo compagno d avventura
         </p>
         <Row>
-          <Col md={3}>
-            <Card className=" project-card-view photo">
-              <Card.Body></Card.Body>
-            </Card>
-          </Col>
-          <Col md={6}>
+          <Col md={9}>
             <Card className=" project-card-view basic-info">
               <Card.Body>
                 <Card.Title>
