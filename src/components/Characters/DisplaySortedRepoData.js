@@ -13,8 +13,8 @@ function DisplaySortedRepoData({ data, num }) {
             <ProjectCards
               key={key}
               nome={key}
-              titolo={data.persone[key].titolo}
-              description={data.persone[key].bio}
+              titolo={data.persone[key].info.titolo}
+              description={data.persone[key].bio[0]}
             >
 			</ProjectCards>
           </Col>

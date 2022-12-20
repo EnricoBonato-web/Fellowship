@@ -454,7 +454,9 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
-
+.card-body{
+	display: flex;
+	flex-direction: column;}
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -523,6 +525,7 @@ button:focus {
 }
 
 .btn-primary {
+	margin-top: auto;
 	position: relative;
 	bottom: 0;
 	text-decoration: underline;
