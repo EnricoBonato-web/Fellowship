@@ -23,7 +23,7 @@
             "evasione fiscale":"piccolo trucchetto che gli permette di arrivare a fine mese",
             "ignorare i messaggi":"1d6 di ignorare i danni subiti, dopo di che lancia una moneta e diminuisci di 1 carisma se esce testa"
          },
-         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia","Attenzione! potrebbe insultarti la macchina."]
+         "bio":["Uno dei fondatori e una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia","Attenzione! potrebbe insultarti la macchina."]
       },
       "Pier":{
          "info":{
@@ -54,7 +54,7 @@
         "info":{
             "titolo" : "Alchimista di stato",
             "classe" : "Elfo Alto",
-            "titolo di studio" : "Serviva qualcuno che badasse a Laura per questo si e iscritta a chimica",
+            "titolo di studio" : "Serviva qualcuno che badasse a Laura per questo si è iscritta a chimica",
             "anni":"22"
          },
          "stats":[
@@ -67,7 +67,7 @@
             7
          ],
          "items":{
-            "fulvia":"rottame che usa per scappare dalla finanaza"
+            "papicar":"rottame che usa per scappare dalla finanaza"
          },
          "skills":{
             "pozione velenosa":"",
@@ -122,7 +122,7 @@
          "skills":{
             "stalkeraggio preventivo":" Scopri tutte le info di un altro personaggio "
          },
-         "bio":["Uno dei fondatori è una delle fondamento del gruppo. Con il suo ruolo da villain ha unito il resto della compagnia"]
+         "bio":["Aggiunta inizialmente per ripristinare la quota rosa della compagnia attira da subito l'attenzione di un altro membro del gruppo", "" ]
       },
       "Kevin":{
          "info":{
