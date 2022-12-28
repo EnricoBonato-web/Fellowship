@@ -10,9 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>
-            Template by Soumyajit Behera
-            <br /> implemented by Enrico Bonato
+          <h3> created by Enrico Bonato
           </h3>
         </Col>
         <Col md="4" className="footer-copywright">

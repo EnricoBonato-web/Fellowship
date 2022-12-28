@@ -12,7 +12,7 @@ function Home() {
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
-          <Row>
+          <Row className="footer-copywright">
             <Col className="home-header">
               <h1 className="heading-name">
                 Benvenuta 
@@ -20,7 +20,7 @@ function Home() {
 	  						all inizio della tua avventura!
               </h1>
 		<br/>
-              <h3 className="heading-name">
+              <h3 >
 Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Casteo
               </h3>
 
@@ -36,7 +36,7 @@ Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Cas
 					<Card className=" project-card-view basic-info">
 					  <Card.Body>
 					    <Card.Text>
-							Prosegui dritta davanti a te e troverai un vecchio saggio che ti raccontera l'origine della compagnia
+							Prosegui per questa strada e ti raccontero l'origine della compagnia
 					    </Card.Text>
 					  </Card.Body>
 					</Card>

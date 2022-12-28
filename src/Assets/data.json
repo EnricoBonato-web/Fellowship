@@ -80,7 +80,7 @@
         "campionatura all'alba": "Consuma 35 MP per ottenere un ingrediente per pozioni di origine vegetale a scelta. ",
         "Potere dei BFF": "Ogni turno cura 10% HP se si trova in prossimità di Bonny. Perde 10% HP altrimenti. "
       },
-      "bio": "[] "
+      "bio": [] 
     },
     "Bonny": {
       "info": {
