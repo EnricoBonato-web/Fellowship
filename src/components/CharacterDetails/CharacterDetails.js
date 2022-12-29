@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 
 import { Container, Row, Col } from "react-bootstrap";
 
-function capitalizeFirstLetter(string) {
+function cap(string) {
+	string=string.toString()
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 function CharacterDetails() {
@@ -36,8 +37,8 @@ function CharacterDetails() {
                       {Object.keys(persona.info).map((key, index) => {
                     return (
                       <Row>
-                        <Col xl={3}>{<p> {key}: </p>}</Col>
-                        <Col xl={9}>{<p>{persona.info[key]}</p>}</Col>
+                        <Col xl={3}>{<p className="purple"> {cap(key)}: </p>}</Col>
+                        <Col xl={9}>{<p>{cap(persona.info[key])}</p>}</Col>
                       </Row>)
                       })}
                 </Card.Text>
@@ -52,7 +53,7 @@ function CharacterDetails() {
                 </Card.Title>
                 <Card.Text>
                   <Row>
-                    <Col xs={6}>
+                    <Col xs={6}  className="purple">
                       <p> HP </p>
                       <p> MP </p>
                       <p> STR </p>
@@ -85,7 +86,7 @@ function CharacterDetails() {
                   {Object.keys(persona.skills).map((key, index) => {
                     return (
                       <Row>
-                        <Col xl={5}>{<p> {key}: </p>}</Col>
+                        <Col xl={5}>{<p className="purple"> {cap(key)}: </p>}</Col>
                         <Col xl={7}>{<p>{persona.skills[key]}</p>}</Col>
                       </Row>
                     );
@@ -100,7 +101,7 @@ function CharacterDetails() {
                   {Object.keys(persona.items).map((key, index) => {
                     return (
                       <Row>
-                        <Col xl={3}>{<p> {key}: </p>}</Col>
+                        <Col xl={3}>{<p className="purple"> {cap(key)}: </p>}</Col>
                         <Col xl={9}>{<p>{persona.items[key]}</p>}</Col>
                       </Row>
                     );
@@ -115,7 +116,7 @@ function CharacterDetails() {
                 <Card.Title>
                   <strong className="purple"> Bio</strong>
                 </Card.Title>
-                <Card.Text> {persona.bio} </Card.Text>
+                <Card.Text> {cap(persona.bio)} </Card.Text>
               </Card.Body>
             </Card>
           </Col>

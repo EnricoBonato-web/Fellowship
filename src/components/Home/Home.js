@@ -45,7 +45,7 @@ Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Cas
 					<Card className=" project-card-view basic-info">
 					  <Card.Body>
 					    <Card.Text>
-		Utilizzando il menu potrai scoprire tutte le informazioni rigurdo le persone piu simpatiche di casteo e dintorni
+		Utilizzando il menu potrai scoprire tutte le informazioni rigurdo le persone piu simpatiche di casteo e dintorni.
 					    </Card.Text>
 					  </Card.Body>
 					</Card>
@@ -54,7 +54,7 @@ Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Cas
 					<Card className=" project-card-view basic-info">
 					  <Card.Body>
 					    <Card.Text>
-		Nel caso tu non sappia cosa sia Casteo e dintorni ti abbiamo fornito una mappa con tutti i luoghi piu importanti
+		Nel caso tu non sappia cosa sia Casteo e dintorni ti abbiamo fornito una mappa con tutti i luoghi piu importanti.
 					    </Card.Text>
 					  </Card.Body>
 					</Card>
