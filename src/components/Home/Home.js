@@ -24,12 +24,12 @@ function Home() {
 Questo piccolo sito web ti portera alla scoperta della compagnia migliore di Casteo
               </h3>
 
-              <div style={{ padding: 50, textAlign: 'left' }}>
+              <div className="footer-copywright" style={{ padding: 50, textAlign: 'left' }}>
                 <h2>Piena di gente: </h2> <Type />
               </div>
             </Col>
           </Row>
-          <h2 className="heading-name"> Di fronte a te si parano 5 possibili strade: </h2>
+          <h2 className="heading-name footer-copywright"> Di fronte a te si parano 5 possibili strade: </h2>
           <Row>
 		
 		<Col md={4}>

@@ -40,7 +40,7 @@ Oh e c'era un <b className="purple">castellooo</b>!<br />
  Il Saggio Scriba, l'intelligente Pier!!!<br />
  e carogna..<br />
  questi tre capitani, accompagnati dal loro super affascinate, aitante e a quanto si dice superdotato consigliere, BONNY! decisero di stilare un regolarmento (che forse riesco a recuperare 🤔)
- pian piano la compagnia crebbe e riuscì a sconfiggere la cattiva strega Laura, nemmeno con il suo fedele falco Seto (il contrario di coniglio lina 😂) riuscì a resistere e per ora è sigillata in attesa di vendetta! 😔
+ pian piano la compagnia crebbe e riuscì a sconfiggere la cattiva strega Laura, nemmeno con il suo fedele falco Seto (il contrario di coniglio lina) riuscì a resistere e per ora è sigillata in attesa di vendetta! 😔
 <br />
  ~the end ~
       
