@@ -7,15 +7,7 @@
         "titolo di studio": "Agricolo che ha scoperto che con l'informatica puo truffare piu vecchietti",
         "giorno di nascita": "03/11/1994"
       },
-      "stats": [
-        "120/200",
-        "60/100",
-        "1",
-        "2",
-        "-1",
-        "6",
-        "10"
-      ],
+      "stats": ["120/200", "60/100", "1", "2", "-1", "6", "10"],
       "items": {
         "fulvia": "rottame che usa per scappare dalla finanza. Paga 50 oro per scappare dalle guardie imperiali. "
       },
@@ -33,18 +25,10 @@
       "info": {
         "titolo": "Giudice Supremo",
         "classe": "Umano",
-        "titolo di studio": "se non puoi batterli unisciti a loro"
+        "titolo di studio": "se non puoi batterli unisciti a loro",
         "giorno di nascita": "14/02/1994"
       },
-      "stats": [
-        "200/230",
-        "150/150",
-        "6",
-        "4",
-        10,
-        5,
-        8
-      ],
+      "stats": ["200/230", "150/150", "6", "4", 10, 5, 8],
       "items": {
         "Lampanal": "Strumento di tortura importato dal regno unito. Danno +10% agli attacchi con bersaglio singolo. "
       },
@@ -60,18 +44,10 @@
       "info": {
         "titolo": "Alchimista di stato",
         "classe": "Elfo Alto",
-        "titolo di studio": "Serviva qualcuno che badasse a Laura per questo si è iscritta a chimica"
+        "titolo di studio": "Serviva qualcuno che badasse a Laura per questo si è iscritta a chimica",
         "giorno di nascita": "31/07/1995"
       },
-      "stats": [
-        "200/200",
-        "150/150",
-        3,
-        7,
-        10,
-        4,
-        10
-      ],
+      "stats": ["200/200", "150/150", 3, 7, 10, 4, 10],
       "items": {
         "papicar": "mezzo di trasporto piu' stiloso della compagnia, bistrattato da Carogna ma solo perche' ne e' segretamente invidioso, +1 CAR durante gli spostamenti"
       },
@@ -80,27 +56,21 @@
         "campionatura all'alba": "Consuma 35 MP per ottenere un ingrediente per pozioni di origine vegetale a scelta. ",
         "Potere dei BFF": "Ogni turno cura 10% HP se si trova in prossimità di Bonny. Perde 10% HP altrimenti. "
       },
-      "bio": ["Raccoglitrice di piante anche lei istruita all'accademia di Padova si unisce in tempi recenti alla compagnia per tenere sott'occhio Laura",
-				"Fin da subito si dimostra una preziosa alleata, un fido confidente per Laura e LA BEST BFF per Bonny",
-				"Ora che Bonny si puo' occupare di Laura e' tornata alla sua attivita' prediletta, la ricerca di piante esotiche nelle regioni montuose dove ha trovato un nuovo compagno"
-				"Ciao BFF<3"]
+      "bio": [
+        "Raccoglitrice di piante anche lei istruita all'accademia di Padova si unisce in tempi recenti alla compagnia per tenere sott'occhio Laura",
+        "Fin da subito si dimostra una preziosa alleata, un fido confidente per Laura e LA BEST BFF per Bonny",
+        "Ora che Bonny si puo' occupare di Laura e' tornata alla sua attivita' prediletta, la ricerca di piante esotiche nelle regioni montuose dove ha trovato un nuovo compagno",
+        "Ciao BFF<3"
+      ]
     },
     "Bonny": {
       "info": {
         "titolo": "Giullare di corte",
         "classe": "Tiefling",
-        "titolo di studio": "Tondeggiatore di siti web"
+        "titolo di studio": "Tondeggiatore di siti web",
         "giorno di nascita": "29/08/1995"
       },
-      "stats": [
-        "200/200",
-        "90/100",
-        7,
-        5,
-        8,
-        7,
-        5
-      ],
+      "stats": ["200/200", "90/100", 7, 5, 8, 7, 5],
       "items": {
         "Magliette rosse": " Grazie al suo stock infinito di magliette rosse e' sempre alla moda e pulito, -30% Danni da Acqua e Gelo"
       },
@@ -110,30 +80,22 @@
       },
       "bio": [
         "Giullare di corte da non prendere troppo sul serio e che non sa cosa scrivere su se stesso quindi cerca di prendere tempo digitando quello che pensa ",
-				"Tirato fuori dal suo ritiro eremitico da carogna e' stato obbligato a unirsi al resto del gruppo; tutto sommato non se la cava nemmeno troppo male"
+        "Tirato fuori dal suo ritiro eremitico da carogna e' stato obbligato a unirsi al resto del gruppo; tutto sommato non se la cava nemmeno troppo male"
       ]
     },
     "Laura": {
       "info": {
         "titolo": "Ammaestratrice di Bestie Selvetiche",
         "classe": "Centauro",
-        "titolo di studio": "Che cariera potrebbe mai scegliere una persona leggermente sbadata? Quella con accesso a sostanze tossiche, strumenti delicati e attrezzatura costosa? Si. "
+        "titolo di studio": "Che cariera potrebbe mai scegliere una persona leggermente sbadata? Quella con accesso a sostanze tossiche, strumenti delicati e attrezzatura costosa? Si. ",
         "giorno di nascita": "16/04/1995"
       },
-      "stats": [
-        "40/90",
-        "120/200",
-        5,
-        6,
-        3,
-        "-4",
-        10
-      ],
+      "stats": ["40/90", "120/200", 5, 6, 3, "-4", 10],
       "items": {
         "planetaria": "riduci del 30% i tempi di preparazione di pietanze al falo', se e' un dolce fornisce +10 HP "
       },
       "skills": {
-        "stalkeraggio preventivo": "Al costo di 50 MP Scopri tutte le info di un altro personaggio "
+        "stalkeraggio preventivo": "Al costo di 50 MP Scopri tutte le info di un altro personaggio ",
         "pozione esplosiva": " tentando di replicare una ricetta trovata su instagram Laura ha scoperto un nuovo tipo di eplosivo. +50% danni da incantesimi e pozioni esplosive. "
       },
       "bio": [
@@ -146,18 +108,10 @@
       "info": {
         "titolo": "Stregone",
         "classe": "Mezzelfo",
-        "titolo di studio": "Scriba di racconti storici/informatici imitati da grandi e piccini"
+        "titolo di studio": "Scriba di racconti storici/informatici imitati da grandi e piccini",
         "giorno di nascita": "20/09/1994"
       },
-      "stats": [
-        "100/160",
-        "380/400",
-        6,
-        10,
-        8,
-        6,
-        8
-      ],
+      "stats": ["100/160", "380/400", 6, 10, 8, 6, 8],
       "items": {
         "droka": "La sua scorta illimitata di droka gli garantisce immunità da avvelenamento e ripristino di 5MP per turno. "
       },
@@ -167,27 +121,19 @@
       },
       "bio": [
         "Stregone errante, ama esplorare il mondo alla ricerca di artifatti e luoghi leggendari",
-				"Originario delle terre nei pressi dell'accademia di Padova, luogo di studi di parte della compagnia. In quei luoghi viene reclutato da Bonny e Carogna come alleato nelle sfide poste dall'accademia"
-				"Si rivela un ottimo alleato anche al di fuori dell'accademia"
-				"Speriamo che non si stufi di fare tutta questa strada (anche perche' carogna mica lo smuovi da queste zone eh)"
+        "Originario delle terre nei pressi dell'accademia di Padova, luogo di studi di parte della compagnia. In quei luoghi viene reclutato da Bonny e Carogna come alleato nelle sfide poste dall'accademia",
+        "Si rivela un ottimo alleato anche al di fuori dell'accademia",
+        "Speriamo che non si stufi di fare tutta questa strada (anche perche' carogna mica lo smuovi da queste zone eh)"
       ]
     },
     "Martaina": {
       "info": {
         "titolo": "Mastro carpentiere",
         "classe": "Umano",
-        "titolo di studio": "Architetta"
+        "titolo di studio": "Architetta",
         "giorno di nascita": "24/10/1995"
       },
-      "stats": [
-        "160/200",
-        "150/200",
-        3,
-        7,
-        6,
-        5,
-        9
-      ],
+      "stats": ["160/200", "150/200", 3, 7, 6, 5, 9],
       "items": {
         "tennents calda": "Reliquia della sua gioventù. Le bevande e pozioni nelle taverne costano 30% in meno.  "
       },
@@ -197,8 +143,8 @@
       },
       "bio": [
         "Ex studiosa della prestigiosa biblioteca di castello. ",
-				"Mille sono le avventure vissute dalla giovane Martina prima di unirsi alla compagnia, ma una vita cosi' caotica non poteva continuare,",
-				"il suo nome dovette abbandonare e cosi' una vita piu' equilibrata l'architetta Martaina pote' cominciare.",
+        "Mille sono le avventure vissute dalla giovane Martina prima di unirsi alla compagnia, ma una vita cosi' caotica non poteva continuare,",
+        "il suo nome dovette abbandonare e cosi' una vita piu' equilibrata l'architetta Martaina pote' cominciare."
       ]
     }
   },
